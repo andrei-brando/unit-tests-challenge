@@ -16,8 +16,6 @@ app.use(express.json());
 
 app.use("/api/v1", router);
 
-// teste
-
 app.use(
   (
     err: Error,
